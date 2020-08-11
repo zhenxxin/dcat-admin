@@ -63,6 +63,7 @@ class Column
         }
 
     const SELECT_COLUMN_NAME = '__row_selector__';
+    const ACTION_COLUMN_NAME = '__actions__';
 
     /**
      * Displayers for grid column.
@@ -352,6 +353,8 @@ class Column
      * @param int $priority
      *
      * @return $this
+     *
+     * @deprecated 即将在2.0版本中废弃
      */
     public function responsive(?int $priority = 1)
     {

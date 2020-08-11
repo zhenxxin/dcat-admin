@@ -31,6 +31,7 @@ class Grid
         Concerns\HasQuickCreate,
         Concerns\HasQuickSearch,
         Concerns\CanFixColumns,
+        Concerns\CanHidesColumns,
         Macroable {
             __call as macroCall;
         }
