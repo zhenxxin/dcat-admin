@@ -1,5 +1,5 @@
 {
-    "name": "dcat/laravel-admin",
+    "name": "zhenxxin/dcat-admin",
     "description": "dcat admin",
     "type": "library",
     "keywords": ["dcat", "laravel", "admin", "grid", "form", "laravel admin"],
@@ -9,6 +9,10 @@
         {
             "name": "jqh",
             "email": "841324345@qq.com"
+        },
+        {
+            "name": "zhenxxin",
+            "email": "xuanxin.zhen@gmail.com"
         }
     ],
     "require": {
